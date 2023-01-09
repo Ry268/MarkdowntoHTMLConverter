@@ -15,7 +15,7 @@ def main():
         try:
             with open(inputfile, "r") as f:
                 text = f.read()
-            md = markdown.Markdown(extentions=["extra", "toc", "sane_lists", "codehilite"])
+            md = markdown.Markdown(extentions=["extra", "sane_lists", "codehilite"])
             html = md.convert(text)
             with open(outputfile, "w") as f:
                 f.write(html)
