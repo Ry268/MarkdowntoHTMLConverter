@@ -30,10 +30,8 @@ normal __bold__ normal
 
 [Google先生](https://www.google.co.jp/)
 
-　~~~ruby
-　class Hoge
-　  def hoge
-　    print 'hoge'
-　  end
-　end
-　~~~
+```python
+    print("hello")
+    for i in range(10):
+        print(i)
+```
